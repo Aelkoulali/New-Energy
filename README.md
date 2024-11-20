@@ -1,5 +1,4 @@
-# 🗂️ Elec
-## HTML, CSS & JAVASCRIPT
+# 🗂️ General Elec ⚡
 ## ➡️ Key Concepts :
 ## ✅
 ## ✅
