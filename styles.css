@@ -4,7 +4,7 @@ body {
     background: white;
 }
 .navbar {
-    background:#AFC9C6;
+    background:#006269;
 }
 
 .navbar-brand img{
@@ -18,7 +18,9 @@ body {
     color: #fff;
 }
 .nav-link:hover {
-    color: black;
+    color:#fff;
+    text-transform: uppercase;
+    
 }
 .navbar-collapse {
     justify-content: flex-end;
