@@ -21,6 +21,7 @@ body {
 .nav-link:hover {
     color:#fff;
     text-transform: uppercase;
+    border-bottom: #F2F2F2 solid 2px;
     
 }
 .navbar-collapse {
