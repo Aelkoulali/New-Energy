@@ -35,28 +35,34 @@ body {
     position: relative;
 }
 
-.overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.6);
-}
-
 .description {
 	left: 50%;
 	position: absolute;
 	top: 45%;
-	transform: translate(-50%, -55%);
+	transform: translate(-85%, -40%);
 	text-align: center;
 }
 .description h1 {
-	color: white;
+	color: #012f34;
     font-size: 70px;
+    font-weight: bold;
 }
 .description p {
-	color: #fff;
+	color: #012f34;
 	font-size: 1.5rem;
+    font-weight: bold;
 	line-height: 1.5;
+}
+
+.description button {
+    border:1px solid #8E4585;
+    background:#8E4585;
+    border-radius: 15px;
+    color:#fff;
+    font-weight: bold;
+}
+.description button:hover {
+	border:1px solid #fff;
+    background:#74f59f;
+    color:#000;
 }
