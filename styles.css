@@ -53,9 +53,10 @@ body {
 }
 .description h1 {
 	color: white;
+    font-size: 70px;
 }
 .description p {
 	color: #fff;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	line-height: 1.5;
 }
