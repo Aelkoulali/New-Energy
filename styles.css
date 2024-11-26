@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background:#f2f6e9;
+    font-family: open sans;
 }
 .navbar {
     background:#014630;
@@ -39,7 +40,7 @@ body {
 	left: 50%;
 	position: absolute;
 	top: 45%;
-	transform: translate(-85%, -55%);
+	transform: translate(-150%, -55%);
 	text-align: center;
 }
 .description h1 {
