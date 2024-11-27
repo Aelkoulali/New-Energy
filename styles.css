@@ -81,7 +81,8 @@ body {
 }
 
 .about {
-    margin: 50px 0;
+    
+    background-color: burlywood;
 }
 .about-title {
     text-align: center;
