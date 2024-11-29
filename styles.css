@@ -1,9 +1,11 @@
+/* Body */
 body {
     padding: 0;
     margin: 0;
     background:#f2f6e9;
     font-family: open sans;
 }
+/* Navbar */
 .navbar {
     background:#014630;
 }
@@ -20,15 +22,14 @@ body {
     font-weight: bold;
 }
 .nav-link:hover {
-    color:#fff;
-    text-transform: uppercase;
+    color:#fff;    
     border-bottom: #F2F2F2 solid 2px;
     
 }
 .navbar-collapse {
     justify-content: flex-end;
 }
-
+/* Header */
 .header {
     background-image: url('Public/Header.jpg');
     background-size: cover;
@@ -79,7 +80,7 @@ body {
 .links a:hover{
     color: #8E4585;
 }
-
+/* About Section */
 .about {
     
     background-color: burlywood;
