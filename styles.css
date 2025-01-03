@@ -80,8 +80,8 @@ body {
 }
 /* About Section */
 .about {
-    
     background-color: burlywood;
+    padding-top: 50px;
 }
 .about-title {
     text-align: center;
