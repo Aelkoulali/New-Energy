@@ -88,7 +88,7 @@ body {
     padding-top: 50px;
 }
 
-.card-img-top {
+.card-img-top{
     width: 700px;  
     height: 400px;  
 }
@@ -115,8 +115,8 @@ body {
     
 }
 
-.img-fluid {
-    width: 500px;
-    height: 300px;
-    margin-top: 50px;
+.col-md-6, .col-md5-5 {
+  margin-top: 50px;
+  width: 500px;
+  height: 350px;
 }
