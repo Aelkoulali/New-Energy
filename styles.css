@@ -116,6 +116,9 @@ body {
 }
 
 .links-footer a {
+    padding: 25px 10px 10px 10px;
+    vertical-align: middle;
+    font-size: 25px;
     color: white;
 }
 
