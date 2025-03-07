@@ -32,8 +32,8 @@ body {
 }
 .nav-link:hover {
     color:#fff;    
-    border-bottom: #F2F2F2 solid 1px;
-    
+    transform: scale(1.2);
+    text-shadow: none;  
 }
 .navbar-collapse {
     justify-content: flex-end;
