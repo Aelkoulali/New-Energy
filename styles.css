@@ -124,6 +124,10 @@ body {
     
 }
 
+.card {
+    margin:15px 15px 15px 0px;
+}
+
 .links-footer a {
     padding: 25px 10px 10px 10px;
     vertical-align: middle;
