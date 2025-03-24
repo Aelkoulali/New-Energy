@@ -9,7 +9,7 @@ body {
 /* Main Banner*/
 .bgimage {
     height:100vh;
-    background: url('Public/Header.jpg');
+    background: url('Public/hero/Header.jpg');
     background-size:cover;
     position:relative;
 }
