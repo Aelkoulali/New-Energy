@@ -6,14 +6,6 @@ body {
     font-family: open sans;
 }
 
-/* Main Banner*/
-.bgimage {
-    height:100vh;
-    background: url('Public/hero/Header.jpg');
-    background-size:cover;
-    position:relative;
-}
-
 /* Navbar */
 .navbar {
     background:#014630;
