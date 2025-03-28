@@ -79,6 +79,10 @@ body {
 .links a:hover{
     color: #8E4585;
 }
+
+.container {
+    margin-top: 30px
+}
 /* About Section */
 .about {
     background-color: burlywood;
