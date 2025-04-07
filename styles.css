@@ -28,6 +28,8 @@ body {
 }
 .navbar-collapse {
     justify-content: flex-end;
+    text-decoration: none;
+    color: #fff;
 }
 /* Hero */
 .bgimage {
@@ -36,11 +38,11 @@ body {
     background-size:cover;
     position: relative;
     background-position: center;
+    text-align: center;
 }    
 
-.container {
-    margin-top: 60px;
-}
+
+
 /* About Section */
 .about {
     background-color: burlywood;
