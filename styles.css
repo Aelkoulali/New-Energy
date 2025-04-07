@@ -30,7 +30,7 @@ body {
 .navbar-collapse {
     justify-content: flex-end;
 }
-/* Header */
+/* Hero */
 .bgimage {
     height:100vh;
     background: url('Public/contact/contact.jpg');
