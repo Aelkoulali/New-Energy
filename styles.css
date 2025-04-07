@@ -31,12 +31,7 @@ body {
     justify-content: flex-end;
 }
 /* Header */
-.header {
-    background-image: url('Public/Header.jpg');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
+
 
 .container {
     margin-top: 60px;
@@ -71,5 +66,6 @@ body {
     height:100vh;
     background: url('Public/contact/contact.jpg');
     background-size:cover;
-    position:relative;
-}
+    position: relative;
+    background-position: center;
+}    
