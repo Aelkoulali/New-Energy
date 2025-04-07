@@ -31,7 +31,13 @@ body {
     justify-content: flex-end;
 }
 /* Header */
-
+.bgimage {
+    height:100vh;
+    background: url('Public/contact/contact.jpg');
+    background-size:cover;
+    position: relative;
+    background-position: center;
+}    
 
 .container {
     margin-top: 60px;
@@ -62,10 +68,4 @@ body {
     color: white;
 }
 
-.bgimage {
-    height:100vh;
-    background: url('Public/contact/contact.jpg');
-    background-size:cover;
-    position: relative;
-    background-position: center;
-}    
+
