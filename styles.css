@@ -31,6 +31,7 @@ body {
     text-decoration: none;
     color: #fff;
 }
+
 /* Hero */
 .bgimage {
     height:100vh;
@@ -40,8 +41,6 @@ body {
     background-position: center;
     text-align: center;
 }    
-
-
 
 /* About Section */
 .about {
