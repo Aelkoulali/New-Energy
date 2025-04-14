@@ -8,6 +8,7 @@ body {
 /* Navbar */
 .navbar {
     background:#014630;
+    margin-bottom: 50px;
 }
 
 .navbar-brand img{
