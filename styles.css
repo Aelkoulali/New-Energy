@@ -8,6 +8,7 @@ body {
 /* Navbar */
 .navbar {
     background:#014630;
+    position: sticky;
 }
 
 .navbar-brand img{
