@@ -46,20 +46,20 @@ body {
 .hero_title {
     font-size: 70px;
     font-weight: bolder;
-    color:#fff;
-      
+    color: #014630;         
 }   
 
-.hero_desc, .social {
+.hero_desc{
     font-size: 40px;
     font-weight: bolder;
-    color:#fff; 
+    color: #014630;
 }
 
-.social a {
+.social_top a {
+    font-size: 40px;
     text-decoration: none;
-    color: #fff;
-}
+    color:#014630;
+}    
 
 /* About Section */
 .about {
