@@ -43,16 +43,16 @@ body {
     text-align: center;
 }    
 
-.hero_title {
+.hero_title{
     font-size: 70px;
     font-weight: bolder;
-    color: #014630;         
+    color:#014630;  
 }   
 
 .hero_desc{
     font-size: 40px;
     font-weight: bolder;
-    color: #014630;
+    color:#014630;
 }
 
 .social_top a {
