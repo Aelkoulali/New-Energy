@@ -46,7 +46,8 @@ body {
 .hero_title {
     font-size: 70px;
     font-weight: bolder;
-    color:#fff; 
+    color:#fff;
+      
 }   
 
 .hero_desc, .social {
