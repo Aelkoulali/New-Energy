@@ -86,4 +86,11 @@ body {
     color: white;
 }
 
+/* Contact */
+
+.contact_social a {
+    font-size: 30px;
+    text-decoration: none;
+    color:#014630;
+}
 
