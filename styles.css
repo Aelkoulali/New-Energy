@@ -94,3 +94,7 @@ body {
     color:#014630;
 }
 
+.img-fluid {
+    width: 550px;
+    height: 350px;
+}
