@@ -33,7 +33,7 @@ body {
     color: #fff;
 }
 
-/* Hero */
+/* Hero section */
 .bgimage {
     height:100vh;
     background: url('Public/contact/contact.jpg');
@@ -46,20 +46,20 @@ body {
 .hero_title{
     font-size: 70px;
     font-weight: bolder;
-    color:#014630; 
+    color:#011b13; 
     margin-top: 300px; 
 }   
 
 .hero_desc{
     font-size: 40px;
     font-weight: bolder;
-    color:#014630;
+    color:#011b13;
 }
 
 .social_top a {
     font-size: 40px;
     text-decoration: none;
-    color:#014630;
+    color:#011b13;
 }    
 
 /* About Section */
@@ -88,7 +88,6 @@ body {
 }
 
 /* Contact Section */
-
 .contact_social a {
     font-size: 30px;
     text-decoration: none;
