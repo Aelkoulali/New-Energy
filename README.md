@@ -1,5 +1,5 @@
 # 🗂️ New Energy 🍃⚡ 
 ## ➡️ Key Concepts :
 ## ✅ Responsive Website
-## ✅ HTML CSS JAVASCRIPT
+## ✅ HTML CSS 
 ## ✅ Bootsrap 5
