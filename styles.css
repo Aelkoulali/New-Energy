@@ -102,4 +102,11 @@ body {
 }
 .nav-item a {
     color: #fff;
-}    
+}   
+
+.socials_bottom a {
+    font-size: 30px;
+    text-decoration: none;
+    color:#fff;
+    margin-left: 15px;
+}
