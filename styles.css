@@ -102,3 +102,9 @@ body {
 .d-grid {
     margin-left: -15px;
 }
+
+/* footer*/
+.py-4 {
+    background-color: #014630;
+    
+}
