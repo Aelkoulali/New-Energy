@@ -37,9 +37,11 @@ body {
 .hero_image {
     background: url('Public/hero/Hero.jpg');
     height: 100vh;
-    background-size: cover;
     background-position: center;
-}    
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
 
 .hero_title{
     font-size: 70px;
