@@ -7,7 +7,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background:#014630;
+    background:#27445C;
     position: sticky;
 }
 
@@ -36,8 +36,8 @@ body {
 /* Hero section */
 .bgimage {
     height:100vh;
-    background: url('Public/about/About.jpg');
-    background-size:cover;
+    background: url('Public/hero/Hero.jpg');
+    background-size: cover;
     position: relative;
     background-position: center;
     text-align: center;
