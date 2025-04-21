@@ -83,6 +83,12 @@ body {
     margin:15px 15px 15px 0;
 }
 
+/* Activities Section*/
+
+.container_act {
+    margin-top: 30px;
+}
+
 /* Contact Section */
 .contact_social a {
     font-size: 30px;
@@ -94,6 +100,7 @@ body {
 .img-fluid {
     width: 550px;
     height: 350px;
+    margin-top: 15px;
 }
 
 .d-grid {
