@@ -11,6 +11,11 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 10;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    transition: transform 0.3s ease;
 }
 
 .nav-link {
@@ -18,12 +23,7 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
 }
-.navbar {
-    background-color: rgba(0, 0, 0, 0.6); /* translucent black overlay */
-    position: absolute;
-    width: 100%;
-    z-index: 10; /* ensures it's above other content */
-}
+
 
 .navbar-brand img{
     width: 120px;
@@ -81,22 +81,25 @@ body {
     font-weight: bolder;
     color: #27445C;  
     margin-top: 150px; 
-}   
+    margin-bottom: 20px;
+}
 
 .hero_desc{
     font-size: 40px;
     font-weight: bolder;
     color:#27445C; 
+    margin-bottom: 40px; 
 }
 
 .social_top{
-    margin-bottom: 30px;
+    margin-bottom: 30px;    
 }
 
 .social_top a {
     font-size: 40px;
     text-decoration: none;
     color: #27445C;
+    margin: 0 15px;   
 } 
 
 @media only screen and (max-width: 600px) {
