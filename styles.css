@@ -6,13 +6,17 @@ body {
 }
 
 /* Navbar */
-.navbar, .bg-transparent {
-    
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.navbar {
     position: absolute;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 10;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
 }
 .navbar {
     background-color: rgba(0, 0, 0, 0.6); /* translucent black overlay */
