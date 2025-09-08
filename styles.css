@@ -6,9 +6,9 @@ body {
 }
 
 /* Navbar */
-.navbar {
+.navbar, .bg-transparent {
     background: url('Public/hero/Hero.jpg');
-    position: sticky;
+    background-size: cover;
 }
 
 .navbar-brand img{
