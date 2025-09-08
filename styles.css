@@ -35,7 +35,7 @@ body {
 
 /* Hero section */
 .hero_image {
-    background: url('Public/hero/Hero.png');
+    background: url('Public/hero/Hero.jpg');
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
