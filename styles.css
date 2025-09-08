@@ -6,7 +6,7 @@ body {
 }
 
 /* Navbar Transparent */
-.navbar {
+.navbar-home {
   background-color: transparent !important;
   position: absolute; /* or fixed-top in HTML */
   width: 100%;
@@ -27,6 +27,7 @@ body {
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
     transition: transform 0.3s ease;
+    will-change: transform;
 }
 
 .nav-link:hover {
