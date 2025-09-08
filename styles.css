@@ -7,7 +7,7 @@ body {
 
 /* Navbar */
 .navbar {
-    background:#27445C;
+    background: url('Public/hero/Hero.jpg');
     position: sticky;
 }
 
