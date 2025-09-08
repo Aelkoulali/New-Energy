@@ -5,6 +5,10 @@ body {
     font-family: roboto sans-serif;
 }
 
+main {
+    margin-top: 80px; /* height of navbar */
+}
+
 /* Navbar Transparent */
 .navbar-home {
   background-color: transparent !important;
@@ -108,22 +112,6 @@ body {
     transition: transform 0.3s ease;
     will-change: transform;    
 }
-
-/* Responsive adjustments */
-@media only screen and (max-width: 600px) {
-    .hero_title {
-        font-size: 45px;
-    }
-
-    .hero_desc {
-        font-size: 25px;
-    }
-
-    .social_top a {
-        font-size: 25px;
-    }
-}
-
 
 /* About Section */
 .about {
