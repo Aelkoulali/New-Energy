@@ -7,20 +7,33 @@ body {
 
 /* Navbar */
 .navbar, .bg-transparent {
-    background: url('Public/hero/Hero.jpg');
+    
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6); /* translucent black overlay */
+    position: absolute;
+    width: 100%;
+    z-index: 10; /* ensures it's above other content */
 }
 
 .navbar-brand img{
     width: 120px;
     height: 50px;
     cursor: pointer;
+    margin-left: 15px;
 }
 .nav-link {
     margin-right: 1em;
     cursor: pointer;
     color: #fff;
     font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    transition: transform 0.3s ease;
 }
 .nav-link:hover {
     color:#fff;    
@@ -31,6 +44,14 @@ body {
     justify-content: flex-end;
     text-decoration: none;
     color: #fff;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    transition: transform 0.3s ease;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
 }
 
 /* Hero section */
@@ -41,6 +62,14 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .hero_title{
@@ -79,6 +108,26 @@ body {
         font-size: 25px;
     }
 
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* center text in hero section */
+.home-inner {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    z-index: 2;
 }
 
 /* About Section */
