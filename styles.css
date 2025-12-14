@@ -113,8 +113,8 @@ main {
     will-change: transform;    
 }
 .social_top a:hover {
-    color: #fff;
-    transform: scale(1.2);
+    color:rgb(93, 221, 7);
+    scale: 1.2;
     text-shadow: 2px 2px 4px #000000;    
 }
 
