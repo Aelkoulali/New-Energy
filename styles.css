@@ -174,3 +174,6 @@ main {
     color:#fff;
     margin-left: 15px;
 }
+.socials_bottom a:hover {
+    color:rgb(93, 221, 7);
+}
