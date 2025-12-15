@@ -150,6 +150,9 @@ main {
     margin-right: 5px;
 }
 
+.contact_social a:hover {
+    color:rgb(93, 221, 7);
+}
 .img-fluid {
     width: 550px;
     height: 350px;
