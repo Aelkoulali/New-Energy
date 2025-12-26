@@ -136,6 +136,25 @@ main {
     margin:15px 15px 15px 0;
 }
 
+.carousel {
+    width: 100%;  /* 100% of the page/container width */
+    margin-left: auto;  /* Center the carousel horizontally */
+    margin-right: auto; /* Center the carousel horizontally */
+}
+
+/* Adjust the image inside the carousel */
+.carousel-item img {
+    width: 100%;  /* Make the image take up the full width of the carousel */
+    height: 600px; /* Maintain the aspect ratio */
+    object-fit: cover; /* Ensure the image covers the container without distortion */
+}
+
+/* Optional: Make the carousel responsive on smaller screens */
+@media (max-width: 768px) {
+    .carousel {
+        width: 100%;  /* Increase the width for smaller devices if needed */
+    }
+}
 /* Activities Section*/
 
 .container_act {
