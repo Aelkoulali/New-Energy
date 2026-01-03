@@ -48,7 +48,7 @@ main {
 
 /* Hero section */
 .hero_image {
-  background: url('Public/hero/Hero.jpg') no-repeat center center;
+  background: url('Public/hero/Hero1.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
   position: relative;
