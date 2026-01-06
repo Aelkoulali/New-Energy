@@ -99,6 +99,14 @@ main {
 }
 
 /* Buttons */
+a {
+    text-decoration: none !important;
+}
+
+a.btn{
+    text-decoration: none !important;
+}
+
 .btn-act {
     background-color: #1275c7;
     color: #fff;
