@@ -121,13 +121,13 @@ a.btn{
     will-change: background-color, transform;    
 }
 .btn-act:hover {
-    background-color: rgb(221, 7, 210);
+    background-color: rgb(11, 7, 221);
     color: #fff;
     transform: scale(1.1);
     text-shadow: 2px 2px 4px #000000;    
 }
 .btn-proj {
-    background-color: #27445C;
+    background-color: #298d32;
     color: #fff;
     padding: 15px 30px;
     font-size: 20px;
