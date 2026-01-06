@@ -98,6 +98,45 @@ main {
     text-shadow: 2px 2px 4px #000000;    
 }
 
+/* Buttons */
+.btn-act {
+    background-color: #1275c7;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    will-change: background-color, transform;    
+}
+.btn-act:hover {
+    background-color: rgb(221, 7, 210);
+    color: #fff;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 4px #000000;    
+}
+.btn-proj {
+    background-color: #27445C;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    will-change: background-color, transform;    
+}
+.btn-proj:hover {
+    background-color: rgb(7, 21, 221);
+    color: #fff;
+    transform: scale(1.1);
+    text-shadow: 2px 2px 4px #000000;    
+}
 /* Social icons */
 .social_top {
     margin-bottom: 30px;
