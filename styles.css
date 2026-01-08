@@ -141,7 +141,7 @@ a.btn{
 @media only screen and (max-width: 768px) {
     .hero_title {
         font-size: 32px;
-        margin-top: 100px;
+        margin-top: 200px;
     }
     .btn-act, .btn-proj {
         font-size: 16px;
