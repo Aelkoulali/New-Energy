@@ -138,7 +138,16 @@ a.btn{
     text-shadow: 2px 2px 4px #000000;    
 } 
 
-@media screen {
+@media only screen and (max-width: 768px) {
+    .hero_title {
+        font-size: 32px;
+        margin-top: 100px;
+    }
+    .btn-act, .btn-proj {
+        font-size: 16px;
+        padding: 12px 24px;
+        margin: 5px 0;
+    }
     
 }
 
