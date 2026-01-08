@@ -83,19 +83,11 @@ main {
 
 /* Text styling */
 .hero_title {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: bolder;
     color: white;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px #000000;
-}
-
-.hero_desc {
-    font-size: 40px;
-    font-weight: bolder;
-    color: white;
-    margin-bottom: 40px;
-    text-shadow: 2px 2px 4px #000000;    
 }
 
 /* Buttons */
