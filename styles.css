@@ -211,6 +211,11 @@ a.btn{
 .d-grid {
     margin-left: -15px;
 }
+.form-check a {
+  color: black;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
 
 /* Footer Section */
 .py-4 {
