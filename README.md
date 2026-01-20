@@ -1,5 +1,5 @@
 # 🗂️ New Energy 🍃⚡ 
 ## ➡️ Key Concepts :
-## ✅ Responsive Website
-## ✅ HTML CSS 
-## ✅ Bootsrap 
+## ✅ Energy Company Project
+## ✅ HTML CSS Bootsrap
+## ✅ Responsive
