@@ -1,12 +1,12 @@
 /* Body */
 body {
-    padding: 0;
-    margin: 0;
-    font-family: roboto sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: roboto sans-serif;
 }
 
 main {
-    margin-top: 80px; /* height of navbar */
+  margin-top: 80px; /* height of navbar */
 }
 
 /* Navbar Transparent */
@@ -15,39 +15,39 @@ main {
   position: absolute; /* or fixed-top in HTML */
   width: 100%;
   z-index: 10;
-  transition: background-color 0.5s ease;  
+  transition: background-color 0.5s ease;
 }
 
 .navbar-brand img {
-    width: 120px;
-    height: 50px;
-    margin-left: 15px;
-    cursor: pointer;
+  width: 120px;
+  height: 50px;
+  margin-left: 15px;
+  cursor: pointer;
 }
 
 .nav-link {
-    margin-right: 1em;
-    color: #fff;
-    font-size: large;
-    font-weight: bolder;    
-    transition: transform 0.3s ease;
-    will-change: transform;    
+  margin-right: 1em;
+  color: #fff;
+  font-size: large;
+  font-weight: bolder;
+  transition: transform 0.3s ease;
+  will-change: transform;
 }
 
 .nav-link:hover {
-    color: #fff;
-    transform: scale(1.2);
-    text-shadow: none;        
+  color: #fff;
+  transform: scale(1.2);
+  text-shadow: none;
 }
 
 .navbar-toggler {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 /* Hero section */
 .hero_image {
-  background: url('Public/Hero/Hero1.jpg') no-repeat center center;
+  background: url("Public/Hero/Hero1.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
   position: relative;
@@ -56,7 +56,7 @@ main {
   justify-content: center;
   align-items: center;
   text-align: center;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 .dark-overlay {
@@ -66,149 +66,152 @@ main {
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5); /* adjust opacity */
-  z-index: 1;  
+  z-index: 1;
 }
 
 /* Centered text */
 .home-inner {
-    z-index: 2;
-    position: relative;
-    width: 100%;
-    color: #fff;
-    padding: 0 20px;
-    box-sizing: border-box;
-    animation: fadeIn 2s ease-in-out;        
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+  animation: fadeIn 2s ease-in-out;
 }
 
 /* Text styling */
 .hero_title {
-    font-size: 50px;
-    font-weight: bolder;
-    color: white;
-    
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
 }
 
 /* Buttons */
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
-a.btn{
-    text-decoration: none !important;
+a.btn {
+  text-decoration: none !important;
 }
 
 .btn-act {
-    background-color: #1275c7;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
-    border-radius: 25px;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    will-change: background-color, transform;    
+  background-color: #1275c7;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 0 10px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+  will-change: background-color, transform;
 }
 .btn-act:hover {
-    background-color: rgb(11, 7, 221);
-    color: #fff;
-    transform: scale(1.1);
-    text-shadow: 2px 2px 4px #000000;    
+  background-color: rgb(11, 7, 221);
+  color: #fff;
+  transform: scale(1.1);
+  text-shadow: 2px 2px 4px #000000;
 }
 .btn-proj {
-    background-color: #298d32;
-    color: #fff;
-    padding: 15px 30px;
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
-    border-radius: 25px;
-    text-decoration: none;
-    margin: 0 10px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    will-change: background-color, transform;    
+  background-color: #298d32;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  margin: 0 10px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+  will-change: background-color, transform;
 }
 .btn-proj:hover {
-    background-color: rgb(7, 21, 221);
-    color: #fff;
-    transform: scale(1.1);
-    text-shadow: 2px 2px 4px #000000;    
-} 
+  background-color: rgb(7, 21, 221);
+  color: #fff;
+  transform: scale(1.1);
+  text-shadow: 2px 2px 4px #000000;
+}
 
 @media only screen and (max-width: 768px) {
-    .hero_title {
-        font-size: 32px;
-        margin-top: 200px;
-    }
-    .btn-act, .btn-proj {
-        font-size: 16px;
-        padding: 12px 24px;
-        margin: 5px 0;
-    }
-    
+  .hero_title {
+    font-size: 32px;
+    margin-top: 200px;
+  }
+  .btn-act,
+  .btn-proj {
+    font-size: 16px;
+    padding: 12px 24px;
+    margin: 5px 0;
+  }
 }
 
 /* About Section */
 .about {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 .about-title {
-    text-align: center;
-    padding-top: 50px;
+  text-align: center;
+  padding-top: 50px;
 }
 
-.card-img-top{
-    height: 400px;  
+.card-img-top {
+  height: 400px;
 }
 
 .card {
-    margin:15px 15px 15px 0;
+  margin: 15px 15px 15px 0;
 }
 
 .carousel {
-    width: 100%;  /* 100% of the page/container width */
-    margin-left: auto;  /* Center the carousel horizontally */
-    margin-right: auto; /* Center the carousel horizontally */
+  width: 100%; /* 100% of the page/container width */
+  margin-left: auto; /* Center the carousel horizontally */
+  margin-right: auto; /* Center the carousel horizontally */
 }
 
 /* Adjust the image inside the carousel */
 .carousel-item img {
-    width: 100%;  /* Make the image take up the full width of the carousel */
-    height: 600px; /* Maintain the aspect ratio */
-    object-fit: cover; /* Ensure the image covers the container without distortion */
+  width: 100%; /* Make the image take up the full width of the carousel */
+  height: 600px; /* Maintain the aspect ratio */
+  object-fit: cover; /* Ensure the image covers the container without distortion */
 }
 
 /* Optional: Make the carousel responsive on smaller screens */
 @media (max-width: 768px) {
-    .carousel {
-        width: 100%;  /* Increase the width for smaller devices if needed */
-    }
+  .carousel {
+    width: 100%; /* Increase the width for smaller devices if needed */
+  }
 }
 /* Activities Section*/
 
 .container_act {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 /* Contact Section */
 .contact_social a {
-    font-size: 30px;
-    text-decoration: none;
-    color: #1275c7;
-    margin-right: 5px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #1275c7;
+  margin-right: 5px;
 }
 
 .contact_social a:hover {
-    color:rgb(65, 155, 5);
+  color: rgb(65, 155, 5);
 }
 .img-fluid {
-    width: 550px;
-    height: 350px;
-    margin-top: 15px;
+  width: 550px;
+  height: 350px;
+  margin-top: 15px;
 }
 
 .d-grid {
-    margin-left: -15px;
+  margin-left: -15px;
 }
 .form-check a {
   color: black;
@@ -218,18 +221,18 @@ a.btn{
 
 /* Footer Section */
 .py-4 {
-    background-color: #27445C;    
+  background-color: #27445c;
 }
 .nav-item a {
-    color: #fff;
-}   
+  color: #fff;
+}
 
 .socials_bottom a {
-    font-size: 30px;
-    text-decoration: none;
-    color:#fff;
-    margin-left: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15px;
 }
 .socials_bottom a:hover {
-    color:rgb(93, 221, 7);
+  color: rgb(93, 221, 7);
 }
