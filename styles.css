@@ -11,7 +11,7 @@ main {
 
 /* Navbar Transparent */
 .navbar-home {
-  background-color: transparent !important;
+  background-color: transparent;
   position: absolute; /* or fixed-top in HTML */
   width: 100%;
   z-index: 10;
@@ -25,13 +25,13 @@ main {
   cursor: pointer;
 }
 
-.nav-link {
+.nav-link {  
   margin-right: 1em;
   color: #fff;
   font-size: large;
-  font-weight: bolder;
+  font-weight: bold;
   transition: transform 0.3s ease;
-  will-change: transform;
+  will-change: transform;  
 }
 
 .nav-link:hover {
@@ -65,7 +65,7 @@ main {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* adjust opacity */
+  background-color: rgba(0, 0, 0, 0.7); /* adjust opacity */
   z-index: 1;
 }
 
