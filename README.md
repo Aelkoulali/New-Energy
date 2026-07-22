@@ -2,14 +2,14 @@
 ## Energy Company Website (HTML + CSS + Bootstrap)
 A responsive multi-page website for an energy company. It includes sections like About, Activities, Projects, Careers, and Contact, using Bootstrap for layout and styling.
 
-## Key Features
+## ✅ Key Features
 - Responsive design (mobile-first)
 - Reusable UI (navbar + footer on each page)
 - Cards with images for projects/activities
 - Clean sections for About, Activities, Projects, Careers
 - Contact page with a form UI
 
-## Pages Included
+## 📄Pages Included
 - `index.html` (Home)
 - `about.html` (About)
 - `activities.html` (Activities)
@@ -17,12 +17,12 @@ A responsive multi-page website for an energy company. It includes sections like
 - `careers.html` (Careers)
 - `contact.html` (Contact)
 
-## Tech Stack
+## 🛠️ Tech Stack
 - HTML
 - CSS
 - Bootstrap
 
-## How to Run
+##  ▶️ How to Run
 Just open the project files in a browser:
 1. Download/clone the repository
 2. Open `index.html` in your browser
