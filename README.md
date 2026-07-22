@@ -27,6 +27,6 @@ Just open the project files in a browser:
 1. Download/clone the repository
 2. Open `index.html` in your browser
 
-## Screenshots / Demo
+## 🧑🏻‍💻 Screenshots / Demo
 - Add screenshots here (optional but recommended)
 - Demo link: (paste your GitHub Pages link if you have one)
