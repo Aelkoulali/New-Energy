@@ -11,13 +11,12 @@ main {
 
 /* Navbar Transparent */
 .navbar-home{
-  background-color: rgba(0,0,0,0.25); /* optional but helps readability */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 9999;
-  transition: background-color 0.5s ease;
+  background: rgba(0,0,0,0.35); /* keeps contrast consistent */
 }
 
 .navbar-brand img {
