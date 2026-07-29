@@ -11,12 +11,9 @@ main {
 
 /* Navbar Transparent */
 .navbar-home{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 9999;
-  background: rgba(0,0,0,0.45);
+  background-color: transparent; /* or rgba(...) for better contrast */
+  z-index: 9999; /* keep above hero/overlays */
+  transition: background-color 0.5s ease;
 }
 
 .navbar-brand img {
