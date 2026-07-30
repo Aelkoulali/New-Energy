@@ -29,9 +29,9 @@ main {
 
 .nav-link:hover {
   color: #fff;
-  background-color: rgb(7, 21, 221);
+  background-color: #298d32;
   transform: scale(1.2);
-  text-shadow: none;
+  text-shadow: none;  
 }
 
 .navbar-toggler {
