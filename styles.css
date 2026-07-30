@@ -9,12 +9,7 @@ main {
   margin-top: 80px; /* height of navbar */
 }
 
-/* Navbar Transparent */
-.navbar-home{
-  background-color: transparent; /* or rgba(...) for better contrast */
-  z-index: 9999; /* keep above hero/overlays */
-  transition: background-color 0.5s ease;
-}
+
 
 .navbar-brand img {
   width: 120px;
@@ -22,18 +17,19 @@ main {
   margin-left: 15px;
   cursor: pointer;
 }
-
-.nav-link {  
-  margin-right: 1em;
-  color: #fff;
-  font-size: large;
-  font-weight: bold;
-  transition: transform 0.3s ease;
-  will-change: transform;    
+.navbar-home .nav-link {
+  display: inline-block;
+  padding: 0.3rem 2rem;
+  margin: 10px;
+  border-radius: 45px;
+  background: rgba(255,255,255,0.06);
+  transition: transform 0.18s ease, background-color 0.18s ease;
 }
+
 
 .nav-link:hover {
   color: #fff;
+  background-color: rgb(7, 21, 221);
   transform: scale(1.2);
   text-shadow: none;
 }
