@@ -24,6 +24,8 @@ main {
   border-radius: 45px;
   background: rgba(255,255,255,0.06);
   transition: transform 0.18s ease, background-color 0.18s ease;
+  font-weight: bold;
+  
 }
 
 
