@@ -31,7 +31,7 @@ main {
   color: #fff;
   background-color: #298d32;
   transform: scale(1.2);
-  text-shadow: none;  
+  text-shadow: none;
 }
 
 .navbar-toggler {
@@ -70,10 +70,7 @@ main {
   to {
     opacity: 1;
   }
-
 }
-
-
 
 .dark-overlay {
   position: absolute;
