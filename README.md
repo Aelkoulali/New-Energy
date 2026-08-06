@@ -28,5 +28,4 @@ Just open the project files in a browser:
 2. Open `index.html` in your browser
 
 ## 🧑🏻‍💻 Screenshots / Demo
-- Add screenshots here (optional but recommended)
-- Demo link: (paste your GitHub Pages link if you have one)
+
