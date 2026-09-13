@@ -166,6 +166,8 @@ a.btn {
 
    .hero_image .row {
     flex-wrap: wrap !important;
+    height: 350px !important;
+    object-fit: cover;
   }
 
   .hero_image .col-6 {
