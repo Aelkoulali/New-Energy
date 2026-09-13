@@ -152,7 +152,7 @@ a.btn {
   text-shadow: 2px 2px 4px #000000;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   .hero_title {
     font-size: 32px;
     margin-top: 200px;
@@ -163,7 +163,24 @@ a.btn {
     padding: 12px 24px;
     margin: 5px 0;
   }
+
+   .hero_image .row {
+    flex-wrap: wrap !important;
+  }
+
+  .hero_image .col-6 {
+    width: 100%;
+  }
+
+  .hero_content {
+    text-align: center;
+    margin-top: 25px;
+  }
 }
+
+
+
+
 
 /* About Section */
 .about {
