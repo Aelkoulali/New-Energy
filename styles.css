@@ -63,14 +63,10 @@ main {
 
 /* Keeps the image's original proportions */
 .hero_img {
-  display: block;
-  width: 100%;
-  max-width: 850px;
-  height: 420px;
+  width: 100% !important;
+  height: 400px;
   object-fit: cover;
-  object-position: center;
 }
-
 .hero_title {
   font-size: clamp(2rem, 5vw, 4rem);
   font-weight: 700;
