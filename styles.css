@@ -54,11 +54,7 @@ main {
   justify-content: flex-end;
   padding: 40px 9%;
   box-sizing: border-box;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 0, 0, 0.05),
-    rgba(0, 0, 0, 0.5)
-  );
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5));
 }
 
 .hero-content {
@@ -125,7 +121,6 @@ main {
     margin-right: auto;
   }
 }
-
 
 /* About Section */
 .about {
