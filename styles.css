@@ -43,61 +43,49 @@ main {
 .hero_image {
   background: url("Public/Hero/Hero1.jpg") no-repeat center center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
-  padding-top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
   overflow: hidden;
-  animation: fadeIn 2s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 0.25;
-  }
-  to {
-    opacity: 0.5;
-  }
-  to {
-    opacity: 0.75;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 .dark-overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.35); /* adjust opacity */
-  z-index: 1;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
 }
 
-/* Centered text */
 .home-inner {
-  z-index: 2;
   position: relative;
-  width: 100%;
-  color: #fff;
-  padding: 0 20px;
-  box-sizing: border-box;
-  animation: fadeIn 2s ease-in-out;
+  z-index: 2;
+  color: white;
 }
 
-/* Text styling */
+/* Keeps the image's original proportions */
+.hero_img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
 .hero_title {
-  font-size: 50px;
-  font-weight: bolder;
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 700;
   color: white;
+}
+
+.hero_subtitle {
+  font-size: clamp(1.1rem, 2vw, 1.6rem);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .hero_img {
+    margin-left: 0;
+  }
 }
 
 /* Buttons */
