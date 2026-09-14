@@ -103,6 +103,7 @@ main {
 .hero-btn:hover {
   background: #12a878;
   transform: translateY(-3px);
+  text-decoration: none;
 }
 
 /* Mobile layout */
