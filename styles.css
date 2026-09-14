@@ -46,6 +46,7 @@ main {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
+  
 }
 
 .dark-overlay {
@@ -63,12 +64,11 @@ main {
 /* Keeps the image's original proportions */
 .hero_img {
   display: block;
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  max-height: 420px;
-  object-fit: contain;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 850px;
+  height: 420px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .hero_title {
