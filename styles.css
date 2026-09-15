@@ -89,7 +89,7 @@ main {
   display: inline-block;
   padding: 14px 30px;
   border-radius: 30px;
-  background: #20c997;
+  background: #067050;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -100,6 +100,7 @@ main {
   background: #12a878;
   transform: translateY(-3px);
   text-decoration: none;
+  color: white;
 }
 
 /* Mobile layout */
