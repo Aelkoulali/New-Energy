@@ -195,3 +195,7 @@ main {
 .btn-success:hover {
   background-color: #0f5c35;  
 }
+
+.btn-primary {
+  background-color: #1275c7;    
+}
