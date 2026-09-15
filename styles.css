@@ -186,3 +186,7 @@ main {
 .socials_bottom a:hover {
   color: rgb(93, 221, 7);
 }
+
+.btn-success {
+  background-color: #157347;  
+}
