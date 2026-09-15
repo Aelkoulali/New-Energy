@@ -148,7 +148,6 @@ main {
   border: 1px solid rgba(25, 135, 84, 0.08);
   transition: all 0.35s ease;
   border-radius: 20px !important;
-  overflow: hidden;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
