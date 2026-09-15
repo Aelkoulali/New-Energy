@@ -269,16 +269,3 @@ main {
 .socials_bottom a:hover {
   color: rgb(93, 221, 7);
 }
-
-/* Buttons */
-.btn-success {
-  background-color: #157347;  
-}
-
-.btn-success:hover {
-  background-color: #0f5c35;  
-}
-
-.btn-primary {
-  background-color: #1275c7;    
-}
