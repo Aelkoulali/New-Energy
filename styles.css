@@ -43,7 +43,7 @@ main {
 .hero_image {
   min-height: 100svh;
   width: 100%;
-  background: url("Public/hero/Hero2.jpg") center / cover no-repeat;
+  background: url("Public/hero/Hero.jpg") center / cover no-repeat;
   position: relative;
 }
 
@@ -223,7 +223,8 @@ main {
     min-height: auto;
     padding: 28px 24px !important;
   }
-}.container_act {
+}
+.container_act {
   margin-top: 40px;
 }
 
